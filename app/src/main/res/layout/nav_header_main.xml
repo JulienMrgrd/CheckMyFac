@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@color/colorPrimaryLight"
+    android:gravity="bottom"
+    android:orientation="horizontal"
+    android:paddingBottom="25dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:weightSum="1">
+    <!--side_nav_bar.xml avant en background-->
+
+    <TextView
+        android:id="@+id/fac_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_dark_gray"
+        android:text="UPMC"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/logo_upmc"
+        android:contentDescription="Logo"
+        android:id="@+id/imageView"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:adjustViewBounds="false"
+        android:paddingTop="10dp" />
+
+    <TextView
+        android:id="@+id/addresse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_dark_gray"
+        android:text="4 place Jussieu\n75005 Paris"
+        android:layout_below="@+id/fac_name"
+        android:layout_alignStart="@+id/fac_name"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">CheckMyFac</string>
+
+    <!-- Menus -->
+    <string name="Menu_Bibliotheques">Bibliothèques</string>
+    <string name="Menu_Restauration">Restauration</string>
+    <string name="Menu_Distributeurs">Distributeurs</string>
+    <string name="Menu_VosPoints">Vos points</string>
+    <string name="Sub_Menu">Autres</string>
+    <string name="Menu_Parametres">Paramètres</string>
+    <string name="Menu_Help">Aide</string>
+    <string name="Menu_About">A propos</string>
+
+    <!-- ChoiceActivity-->
+    <string name="univChoix">Votre université</string>
+    <string name="text_choice">Avant toute chose, veuillez choisir la fac de votre choix pour vos futures utilisations :</string>
+    <string name="welcome_choice">Bienvenue sur CheckMyFac !</string>
+    <string name="start_map">Démarrer</string>
+
+    <!-- About Activity -->
+    <string name="TitreAbout">A propos !\n</string>
+    <string name="TextAbout">\n<b>CheckMyFac</b> est une application gratuite éditée par Margarido Julien et Lima Gorito Félix.\n
+ \nCette application et son contenu sont protégés par le droit d\'auteur et les droits de propriété intellectuelle.\n
+ \nToute reproduction, imitation et/ou exploitation partielle ou totale de cette application sans l\'autorisation écrite par les programmeurs, est strictement prohibée.\n
+\n <u>Contact</u> : \n julien.magarido@gmail.com \n felix.gorito@gmail.com </string>
+
+    <!-- Help Activity -->
+    <string name="TitreAide">Aide\n</string>
+    <string name="QuestionLocalisation">Pourquoi la localisation ne fonctionne pas ?</string>
+    <string name="ReponseLocalisation">Votre position n\'est affichée que si vous trouvez dans un rayon d\'1 km du campus.\nCependant, suivant la qualité de la puce GPS de votre appareil, la localisation peut prendre un certain temps.\n</string>
+    <string name="QuestionRajouPtsIntUser">Comment faire pour ajouter mes propres points d\'intérets ?</string>
+    <string name="ReponseRajouPtsIntUser">Pour cela, il vous suffit de rester appuyé sur le lieu où vous desirez le placer, ou d\'appuyer sur le petit bouton "+" en bas à droite puis de cliquer sur l\'endroit désiré, sur la carte.\n</string>
+    <string name="QuestionSupTsPtsIntUser">Comment faire pour supprimer tous mes points d\'intérets ?</string>
+    <string name="ReponseSupTsPtsIntUser">Dans les paramètres, il y a l\'option \"Vider le cache\".\n</string>
+    <string name="QuestionSup1PtsIntUser">Comment faire pour supprimer un seul de mes points d\'intérets ?</string>
+    <string name="ReponseSup1PtsIntUser">Cliquez sur le texte apparaissant lorsque vous cliquez sur votre point, vous pourrez ainsi le modifier ou supprimer. Vous pouvez également cliquer sur le bouton "crayon" en bas à droite, puis cliquer sur le point désiré. Enfin, vous pouvez aussi cacher ce point, en décochant sa case dans le menu à gauche\n</string>
+
+    <!-- Map Activity -->
+    <string name="Titre">Titre (obligatoire)</string>
+    <string name="Descr">Description</string>
+    <string name="AjoutPI">Nouveau point d\'interêt</string>
+    <string name="ModifPI">Modification</string>
+    <string name="EtesVousSur">Êtes-vous sûr ?</string>
+    <string name="Val">Valider</string>
+    <string name="Annul">Annuler</string>
+    <string name="Supp">Supprimer</string>
+    <string name="Modif">Modifier</string>
+    <string name="Expire">Date d\'expiration</string>
+    <string name="HorsPerim">Vous êtes trop éloigné de votre université</string>
+    <string name="LocImpossible">Impossible de trouver votre position actuelle</string>
+    <string name="ClickOnMap">Cliquez sur la map pour créer votre point</string>
+    <string name="SelectPoint">Sélectionnez votre point à modifier</string>
+    <string name="horairesProgress">Chargement des horaires pour</string>
+    <string name="errorHoraires">Impossible de récupérer les horaires de</string>
+    <string name="prefixe_horaire">dir.</string> <!-- direction -->
+
+    <!-- Messages uniques-->
+    <string name="first_DialogLongClick">Appuyez sur le point pour le voir sur la carte</string>
+
+    <!-- Parametres -->
+    <string name="PlanValue">1</string>
+    <string name="Parametres">Paramètres généraux</string>
+    <string name="TypCar">Type de la carte</string>
+    <string name="VidCacUser">Vider vos caches</string>
+    <string name="VidCacMap">Vider les caches de la carte</string>
+    <string name="AffMes">Affichage des messages</string>
+    <string name="AffMesMessages">(localisation, infos, &#8230;)</string>
+    <string name="Satt">Satellite</string>
+    <string name="Plan">Plan</string>
+    <string name="Cart">Carte</string>
+    <string name="ChangerFac">Changer d\'université</string>
+    <string name="Couleur">Choix des couleurs des marqueurs</string>
+    <string name="CouleurBU">Bibliothèques</string>
+    <string name="CouleurDistr">Distributeurs</string>
+    <string name="CouleurRest">Cafèt\' et restaurants</string>
+    <string name="CouleurBus">Bus</string>
+    <string name="CouleurMetro">Métro</string>
+    <string name="Bleu">Bleu</string>
+    <string name="BleuCiel">Bleu ciel</string>
+    <string name="BleuPaon">Bleu paon</string>
+    <string name="BleuFonce">Bleu foncé</string>
+    <string name="Jaune">Jaune</string>
+    <string name="Marron">Marron</string>
+    <string name="Orange">Orange</string>
+    <string name="Rouge">Rouge</string>
+    <string name="Vert">Vert</string>
+    <string name="Violet">Violet</string>
+    <string name="Prune">Prune</string>
+    <string name="Gris">Gris</string>
+    <string name="VidCachConfirm">Attention, vous perdrez : \n - vos points\n - vos paramètres\nmais vous gagnerez de la place.</string>
+    <string name="VidCachMapConfirm">Vous gagnerez un peu de mémoire, mais vous devrez recharger la carte au prochain démarrage.</string>
+    <string name="CachSup">= Données effacées =\n(les changements seront effectifs au \nprochain démarrage de l\'application)</string>
+    <string name="Oui">Oui</string>
+    <string name="Non">Non</string>
+
+    <!-- Autres -->
+    <string name="Arret">Arrêt</string>
+    <string name="Station">Station</string>
+    <string name="RER">RER</string>
+    <string name="Metro">Métro</string>
+    <string name="Tramway">Tramway</string>
+    <string name="Bus">Bus</string>
+    <string name="Noctilien">Noctilien</string>
+
+</resources>

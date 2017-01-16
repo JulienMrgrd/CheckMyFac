@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="ListeType">
+        <item>@string/Satt</item>
+        <item>@string/Plan</item>
+    </string-array>
+    <string-array name="ValeurType">
+        <item>4</item>
+        <item>1</item>
+    </string-array>
+    
+    <string-array name="ListeCouleur">
+        <item>@string/Bleu</item>
+        <item>@string/BleuCiel</item>
+        <item>@string/Jaune</item>
+        <item>@string/Marron</item>
+        <item>@string/Orange</item>
+        <item>@string/Rouge</item>
+        <item>@string/Vert</item>
+		<item>@string/Violet</item>	
+    </string-array>
+    <string-array name="ValeurCouleur">
+        <item>@string/Bleu</item>
+        <item>@string/BleuCiel</item>
+        <item>@string/Jaune</item>
+        <item>@string/Marron</item>
+        <item>@string/Orange</item>
+        <item>@string/Rouge</item>
+        <item>@string/Vert</item>
+		<item>@string/Violet</item>	
+    </string-array>
+
+    <string-array name="ListeCouleurTransports">
+        <item>@string/Gris</item>
+        <item>@string/Prune</item>
+        <item>@string/BleuPaon</item>
+        <item>@string/BleuFonce</item>
+    </string-array>
+    <string-array name="ValeurCouleurTransports">
+        <item>@string/Gris</item>
+        <item>@string/Prune</item>
+        <item>@string/BleuPaon</item>
+        <item>@string/BleuFonce</item>
+    </string-array>
+</resources>

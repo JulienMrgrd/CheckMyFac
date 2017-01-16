@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:id="@+id/create_marker_dialog_id">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titre_create_marker_dialog"
+        android:hint="@string/Titre"
+        android:maxLength="50"
+        android:ems="10" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/desc_create_marker_dialog"
+        android:hint="@string/Descr"
+        android:maxLength="150"
+        android:ems="10" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_create_marker_dialog"
+        android:layout_marginTop="10dp"
+        android:spinnerMode="dropdown"/>
+</LinearLayout>

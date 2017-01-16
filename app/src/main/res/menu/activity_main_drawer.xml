@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group>
+        <item
+            android:id="@+id/nav_bibliotheque"
+            android:icon="@drawable/ic_school_black_24dp"
+            app:actionViewClass="android.widget.Switch"
+            android:title="@string/Menu_Bibliotheques"/>
+        <item
+            android:id="@+id/nav_restauration"
+            android:icon="@drawable/ic_restaurant_menu_black_24dp"
+            app:actionViewClass="android.widget.Switch"
+            android:title="@string/Menu_Restauration" />
+        <item
+            android:id="@+id/nav_distributeur"
+            android:icon="@drawable/ic_local_cafe_black_24dp"
+            app:actionViewClass="android.widget.Switch"
+            android:title="@string/Menu_Distributeurs" />
+        <item
+            android:id="@+id/nav_user"
+            android:icon="@drawable/ic_beenhere_black_24dp"
+            app:actionViewClass="android.widget.Switch"
+            android:title="@string/Menu_VosPoints"/>
+    </group>
+
+    <item android:title="@string/Sub_Menu">
+        <menu>
+            <item
+                android:id="@+id/nav_pref"
+                android:title="@string/Menu_Parametres" />
+            <item
+                android:id="@+id/nav_help"
+                android:title="@string/Menu_Help" />
+            <item
+                android:id="@+id/nav_about"
+                android:title="@string/Menu_About"/>
+        </menu>
+    </item>
+
+</menu>

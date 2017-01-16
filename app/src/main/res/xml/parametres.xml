@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/Parametres">
+
+        <ListPreference
+            android:key="typeMap"
+            android:title="@string/TypCar"
+            android:entries="@array/ListeType"
+            android:entryValues="@array/ValeurType"
+            android:defaultValue="1">
+        </ListPreference>
+
+        <Preference
+            android:key="cacheSystem"
+            android:title="@string/VidCacUser"
+            android:enabled="true">
+        </Preference>
+
+        <Preference
+            android:key="cacheMap"
+            android:title="@string/VidCacMap"
+            android:enabled="true">
+        </Preference>
+
+        <Preference
+            android:key="changeFac"
+            android:title="@string/ChangerFac"
+            android:enabled="true">
+        </Preference>
+
+        <CheckBoxPreference
+            android:key="msg"
+            android:title="@string/AffMes"
+            android:summary="@string/AffMesMessages"
+            android:enabled="true"
+            android:defaultValue="true">
+        </CheckBoxPreference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/Couleur">
+
+        <ListPreference
+            android:key="DISTR"
+            android:title="@string/CouleurDistr"
+            android:entries="@array/ListeCouleur"
+            android:entryValues="@array/ValeurCouleur">
+        </ListPreference>
+
+        <ListPreference
+            android:key="BU"
+            android:title="@string/CouleurBU"
+            android:entries="@array/ListeCouleur"
+            android:entryValues="@array/ValeurCouleur">
+        </ListPreference>
+
+        <ListPreference
+            android:key="REST"
+            android:title="@string/CouleurRest"
+            android:entries="@array/ListeCouleur"
+            android:entryValues="@array/ValeurCouleur">
+        </ListPreference>
+
+        <ListPreference
+            android:key="BUS"
+            android:title="@string/CouleurBus"
+            android:entryValues="@array/ValeurCouleurTransports"
+            android:entries="@array/ListeCouleurTransports" >
+        </ListPreference>
+
+        <ListPreference
+            android:key="METRO"
+            android:title="@string/CouleurMetro"
+            android:entryValues="@array/ValeurCouleurTransports"
+            android:entries="@array/ListeCouleurTransports">
+        </ListPreference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

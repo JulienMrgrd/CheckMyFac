@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">CheckMyFac</string>
+
+    <!-- Menus -->
+    <string name="Menu_Bibliotheques">Libraries</string>
+    <string name="Menu_Restauration">Restaurants</string>
+    <string name="Menu_Distributeurs">Vending machines</string>
+    <string name="Menu_VosPoints">Your points</string>
+    <string name="Sub_Menu">Other</string>
+    <string name="Menu_Parametres">Parameters</string>
+    <string name="Menu_Help">Help</string>
+    <string name="Menu_About">About</string>
+
+    <!-- ChoiceActivity-->
+    <string name="univChoix">Your university</string>
+    <string name="text_choice">First, select the university of your choice for future uses :</string>
+    <string name="welcome_choice">Welcome on CheckMyFac !</string>
+    <string name="start_map">Start</string>
+
+    <!-- About Activity -->
+    <string name="TitreAbout">About !\n</string>
+    <string name="TextAbout">\n<b>CheckMyFac</b> is a free application published by Margarido Julien and Lima Gorito Félix.\n
+ \nThis application and it\'s contents are protected by copyright and intellectual property rights.\n
+ \nAny reproduction, imitation and/or partial or total exploitation of this application without permission written by programmers, is strictly prohibited.\n
+\n <u>Contact</u> : \n julien.magarido@gmail.com \n felix.gorito@gmail.com \n github.com/JulienMrgrd/CheckMyFac </string>
+
+    <!-- Help Activity -->
+    <string name="TitreAide">Help\n</string>
+    <string name="QuestionLocalisation">Why the location is not working ?</string>
+    <string name="ReponseLocalisation">Your position is only displayed if you are in a scope of 1 km from the campus. \n However, depending on the quality of the GPS chip in your device, the location may take some time.\n</string>
+    <string name="QuestionRajouPtsIntUser">How to add my own points ?</string>
+    <string name="ReponseRajouPtsIntUser">For this, you have to stay press where you want to put it on the map, or click on the "+" button in bottom right and click where you want on the map.\n</string>
+    <string name="QuestionSupTsPtsIntUser">How to delete all my points ?</string>
+    <string name="ReponseSupTsPtsIntUser">In Settings, you have the \"Clear caches\" option.\n</string>
+    <string name="QuestionSup1PtsIntUser">How to delete only one point ?</string>
+    <string name="ReponseSup1PtsIntUser">Click on the window which appears above the point, and you can modify it or delete it. You can also click on the "pen" button in bottom right and then select the chosen point. Lastly, you can hide a point, by uncheck his checkbox in the left menu.\n</string>
+
+    <!-- Map Activity -->
+    <string name="Titre">Title (mandatory)</string>
+    <string name="Descr">Description</string>
+    <string name="AjoutPI">New point of interest</string>
+    <string name="ModifPI">Modification</string>
+    <string name="EtesVousSur">Are you sure ?</string>
+    <string name="Val">Validate</string>
+    <string name="Annul">Cancel</string>
+    <string name="Supp">Delete</string>
+    <string name="Modif">Update</string>
+    <string name="Expire">Expiration date</string>
+    <string name="HorsPerim">Your too far of your university</string>
+    <string name="LocImpossible">Impossible to find your actual position</string>
+    <string name="ClickOnMap">Click on the map to create your pointy</string>
+    <string name="SelectPoint">Select your point</string>
+    <string name="horairesProgress">Loading schedules for</string>
+    <string name="errorHoraires">Impossible to get schedules for</string>
+    <string name="prefixe_horaire">dir.</string> <!-- direction -->
+
+    <!-- Messages uniques-->
+    <string name="first_DialogLongClick">Press and hold the point to see it on the map</string>
+
+    <!-- Parametres -->
+    <string name="Parametres">General parameters</string>
+    <string name="TypCar">Map type</string>
+    <string name="VidCacUser">Clear your caches</string>
+    <string name="VidCacMap">Clear the map caches</string>
+    <string name="AffMes">Messages display</string>
+    <string name="AffMesMessages">(location, informations, &#8230;)</string>
+    <string name="Satt">Satellite</string>
+    <string name="Plan">Plan</string>
+    <string name="Cart">Map</string>
+    <string name="ChangerFac">Change of university</string>
+    <string name="Couleur">Colour choice of points</string>
+    <string name="CouleurBU">Libraries</string>
+    <string name="CouleurDistr">Vending machines</string>
+    <string name="CouleurRest">Cafet\' and Restaurants</string>
+    <string name="CouleurBus">Bus</string>
+    <string name="CouleurMetro">Subway</string>
+    <string name="Bleu">Blue</string>
+    <string name="BleuCiel">Blue sky</string>
+    <string name="BleuPaon">Peacock blue</string>
+    <string name="BleuFonce">Dark blue</string>
+    <string name="Jaune">Yellow</string>
+    <string name="Marron">Brown</string>
+    <string name="Orange">Orange</string>
+    <string name="Rouge">Red</string>
+    <string name="Vert">Green</string>
+    <string name="Violet">Purple</string>
+    <string name="Prune">Plum</string>
+    <string name="Gris">Grey</string>
+    <string name="VidCachConfirm">Pay attention, you will loose : \n - your points\n - your parameters\nbut your will win some memory.</string>
+    <string name="VidCachMapConfirm">You will win some memory, but you will have to reload the map at the next app launch.</string>
+    <string name="CachSup">= Deleted memory =\n(The changes will take place \nat the next app launch)</string>
+    <string name="Oui">Yes</string>
+    <string name="Non">No</string>
+
+    <!-- Autres -->
+    <string name="Arret">Stop</string>
+    <string name="Station">Station</string>
+    <string name="RER">RER</string>
+    <string name="Metro">Metro</string>
+    <string name="Tramway">Tramway</string>
+    <string name="Bus">Bus</string>
+    <string name="Noctilien">Noctilien</string>
+
+</resources>
