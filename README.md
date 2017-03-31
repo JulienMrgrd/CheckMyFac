@@ -1,7 +1,6 @@
-# CheckMyFac (Android app)
-(Android app based on an interactive map of the user's university)
+# CheckMyFac (Projet de Master STL : 17/20)
 
-**CheckMyFac** est une application Android permettant à l’utilisateur
+**[CheckMyFac]** est une application Android permettant à l’utilisateur
 de choisir l’université de son choix, parmi une liste de facultés
 présentes sur l’application, et de pouvoir visualiser les points
 d’intérêts principaux du campus sur une carte interactive.
@@ -23,3 +22,7 @@ localisation intégrée à son appareil.
 
 ![first](https://github.com/JulienMrgrd/CheckMyFac/blob/master/Documents/Screenshots/banniere_1.png)
 ![second](https://github.com/JulienMrgrd/CheckMyFac/blob/master/Documents/Screenshots/banniere_2.png)
+
+[//]: # (links)
+
+  [CheckMyFac]: <https://github.com/JulienMrgrd/CheckMyFac/releases>
